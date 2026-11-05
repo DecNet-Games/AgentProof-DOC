@@ -1,0 +1,48 @@
+# AgentProof — Documentation site configuration
+# Just the Docs via remote_theme (the pattern proven on PERCH-DOC / SteamDeck-DOC:
+# NO `theme:` gem key — that combination produced "The just-the-docs theme
+# could not be found" on GitHub Pages. remote_theme + the github-pages gem
+# in the Gemfile is the working setup.)
+
+title: AgentProof
+description: Documentation for AgentProof — read-back receipts, an audit journal and session rollback for AI agent edits in the Unity Editor.
+baseurl: "/AgentProof-DOC"
+url: "https://decnet-games.github.io"
+repository: DecNet-Games/AgentProof-DOC
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: dark
+
+search_enabled: true
+search:
+  heading_level: 2
+
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "AgentProof &copy; 2026 Decnet Games. Documentation for the Unity Asset Store package <code>com.decnetgames.agentproof</code>."
+
+aux_links:
+  "Unity Asset Store":
+    - "https://assetstore.unity.com/publishers/118262"
+  "Decnet Games":
+    - "https://decnetgames.com"
+  "Discord":
+    - "https://discord.gg/P9wepz7NBW"
+
+aux_links_new_tab: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - PUSH-NOTE.md
+  - README.md
+  - vendor/
+  - node_modules/
