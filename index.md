@@ -39,6 +39,6 @@ The package ships a **Guided Trial**: a practice agent session of five edits —
 
 ## Two editions, one codebase
 
-**Standard ($79)** is the journal, receipts, review and rollback core. **Studio ($149)** adds checkpoints with a guided manifest restore, conflict detection, the approval gate, and the code-watch engine — each documented here in exactly the terms the shipped build supports. See [Editions]({{ site.baseurl }}/docs/editions/).
+**Standard** is the journal, receipts, review and rollback core. **Studio** adds checkpoints with a guided manifest restore, conflict detection, the approval gate, and the code-watch engine — each documented here in exactly the terms the shipped build supports. See [Editions]({{ site.baseurl }}/docs/editions/).
 
 > Editor verification for v1.0.0 was performed on Windows, on Unity 2022.3 LTS and Unity 6. macOS is **not** claimed — see [What v1 Is Not]({{ site.baseurl }}/docs/what-v1-is-not/).
